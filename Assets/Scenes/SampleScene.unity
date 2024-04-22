@@ -119,11 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!171741748 &271183677 stripped
-ArticulationBody:
-  m_CorrespondingSourceObject: {fileID: 1502103140575203207, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-  m_PrefabInstance: {fileID: 809244860}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,22 +328,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2854158490331596258, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
+    - target: {fileID: 3836648443469527293, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1744916371}
-    - target: {fileID: 2854158490331596258, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-      propertyPath: targetValue
-      value: 0.009
-      objectReference: {fileID: 0}
-    - target: {fileID: 3837044001329956600, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 1744916371}
-    - target: {fileID: 3837044001329956600, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-      propertyPath: targetValue
-      value: 0.009
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1744916375}
     - target: {fileID: 6517783124459921572, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
       propertyPath: m_Name
       value: CRB1100-580-Underneath Variant
@@ -396,16 +379,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6517783124459921572, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1933753457}
-    - targetCorrespondingSourceObject: {fileID: 6517783124459921572, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1933753458}
-    - targetCorrespondingSourceObject: {fileID: 6517783124459921572, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1933753459}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
 --- !u!1 &963194225
 GameObject:
@@ -499,26 +473,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!171741748 &1119018417 stripped
-ArticulationBody:
-  m_CorrespondingSourceObject: {fileID: 2546787638533271553, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-  m_PrefabInstance: {fileID: 809244860}
-  m_PrefabAsset: {fileID: 0}
---- !u!171741748 &1283383973 stripped
-ArticulationBody:
-  m_CorrespondingSourceObject: {fileID: 6935407186167568452, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-  m_PrefabInstance: {fileID: 809244860}
-  m_PrefabAsset: {fileID: 0}
---- !u!171741748 &1435560739 stripped
-ArticulationBody:
-  m_CorrespondingSourceObject: {fileID: 1576244636816053212, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-  m_PrefabInstance: {fileID: 809244860}
-  m_PrefabAsset: {fileID: 0}
---- !u!171741748 &1618074903 stripped
-ArticulationBody:
-  m_CorrespondingSourceObject: {fileID: 3569683188949057272, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-  m_PrefabInstance: {fileID: 809244860}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1744916371
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,83 +608,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &1933753453 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6517783124459921572, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-  m_PrefabInstance: {fileID: 809244860}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1933753457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933753453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BrainParameters:
-    VectorObservationSize: 75
-    NumStackedVectorObservations: 1
-    m_ActionSpec:
-      m_NumContinuousActions: 6
-      BranchSizes: 
-    VectorActionSize: 06000000
-    VectorActionDescriptions: []
-    VectorActionSpaceType: 1
-    hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
-  m_BehaviorName: CRB1100
-  TeamId: 0
-  m_UseChildSensors: 1
-  m_UseChildActuators: 1
-  m_ObservableAttributeHandling: 0
---- !u!114 &1933753458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933753453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c79d5d96bc3f89641a38c62c71c355ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agentParameters:
-    maxStep: 0
-  hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
-  target: {fileID: 1744916375}
-  Link1: {fileID: 271183677}
-  Link2: {fileID: 1119018417}
-  Link3: {fileID: 2036483036}
-  Link4: {fileID: 1618074903}
-  Link5: {fileID: 1435560739}
-  Link6: {fileID: 1283383973}
---- !u!114 &1933753459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933753453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DecisionPeriod: 20
-  TakeActionsBetweenDecisions: 1
---- !u!171741748 &2036483036 stripped
-ArticulationBody:
-  m_CorrespondingSourceObject: {fileID: 3490979414891634817, guid: 8b458c5c42ce5a94fb7935ac8858e84a, type: 3}
-  m_PrefabInstance: {fileID: 809244860}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
