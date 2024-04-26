@@ -279,14 +279,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5581092020799651913, guid: 79ff01eeaf0b5be46918c3ae82a9643a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6007809390086459042, guid: 79ff01eeaf0b5be46918c3ae82a9643a, type: 3}
-      propertyPath: m_ParentAnchorPosition.z
-      value: 0.11919999
-      objectReference: {fileID: 0}
     - target: {fileID: 6580593770541690471, guid: 79ff01eeaf0b5be46918c3ae82a9643a, type: 3}
       propertyPath: m_Name
       value: abb_crb15000_5_95 Tool
